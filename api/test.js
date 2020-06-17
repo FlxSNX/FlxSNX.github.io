@@ -1,3 +1,6 @@
 module.exports = (req, res) => {
-  res.json( req );
+  res.json({
+    body: req.body,
+    req: req,
+  })
 }
