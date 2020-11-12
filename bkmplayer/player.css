@@ -258,6 +258,29 @@
 
 #bkmplayer .tips{
     position: absolute;
+    height: 30px;
+    left: 3%;
+    bottom: 50px;
+    z-index: 103;
+    text-align: center;
+    opacity: 0;
+    transition: .3s;
+    
+}
+
+#bkmplayer .tips>span{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+    font-size: 13px;
+    padding: 0 10px;
+    border-radius: 2px;
+}
+
+#bkmplayer .timetips{
+    position: absolute;
     height: 20px;
     bottom: 50px;
     z-index: 103;
@@ -266,7 +289,7 @@
     
 }
 
-#bkmplayer .tips>span{
+#bkmplayer .timetips>span{
     display: inline-block;
     height: 20px;
     line-height: 20px;
