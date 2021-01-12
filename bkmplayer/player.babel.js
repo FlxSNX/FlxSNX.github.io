@@ -9,7 +9,7 @@ class BkmPlayer {
     this.video = {
       url: '' //视频地址
 
-    }, this.logo = 'https://ae01.alicdn.com/kf/U242a6e3191324f1bbcc7bd1a69925c66y.jpg',
+    }, this.logo = 'https://ae01.alicdn.com/kf/U08a490c77627402bad9d204db5d663afA.jpg',
     /* 多集模式 可播放完自动播放下一集 */
     this.nextpartmode = false;
     this.playIndex = 0;
